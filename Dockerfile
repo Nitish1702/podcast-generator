@@ -4,7 +4,7 @@ FROM ubuntu:latest
 # Install system dependencies
 RUN apt-get update && apt-get install -y \
     python3.10 \
-    python3-pip \
+    python3-pip3 \
     git \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
